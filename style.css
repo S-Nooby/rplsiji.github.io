@@ -1,0 +1,355 @@
+html {
+	scroll-behavior: smooth;
+
+}
+
+/*SCROLL BAR*/
+
+::-webkit-scrollbar {
+	width: 3px;
+	background: #00aaff;
+	opacity: 0.1;
+}
+::-webkit-scrollbar-thumb {
+	width: 10px;
+	background: #666;
+}
+::-moz-scrollbar-thumb:hover {
+	width: 10px;
+	background: #444;
+}
+::-moz-scrollbar {
+	width: 3px;
+	background: #00aaff;
+	opacity: 0.1;
+}
+::-moz-scrollbar-thumb {
+	width: 10px;
+	background: #666;
+}
+::-moz-scrollbar-thumb:hover {
+	width: 10px;
+	background: #444;
+}
+
+
+/*...............*/
+
+#header-judul {
+	font-size: 55px;
+	transition: 0.6s all ease;
+}
+.bg-header {
+	background: url("assets/img/background/10b.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.card-footer {
+	background-color: #ddd;
+}
+
+.card-anim {
+	overflow: hidden;
+}
+.card-anim img{
+
+	transition: all 2.0s ease;
+}
+.card-anim:hover img{
+	transform:scale(1.3);	
+
+}
+#data-murid {
+	border-radius: 10px;
+}
+
+/*icons*/
+.f-icon {
+			width: 13vh;
+			border: 5px solid #fff;
+			border-radius: 100px;
+}
+.f-icon2 {
+			width: 14vh;
+}
+
+/*----------------*/
+
+/*Hiasan*/
+.gelembung {
+	width: 25rem;
+}
+
+/*---------------*/
+
+
+.qod-size {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.qod-pict {
+	width: 10rem;
+}
+
+
+/*Footer*/
+section .section-ttile {
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+#footer a {
+	color: white;
+}
+
+/*Gallery*/
+.galeri-section	.galeri {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.galeri-section .gambar {
+	flex: 25%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.galeri-section .gambar img {
+	border: #fff 1px solid;
+	width: 100%;
+	height: 100%;
+}
+.galeri-section .gambar img {
+	transition: all 1.2s ease;
+}
+
+.galeri-section .gambar:hover img {
+	transform:  scale(1.5) rotateZ(15deg);
+}
+.galeri-section .gambar:hover img {
+	transition: all 1.2s ease;
+}
+.galeri-section .gambar:hover img {
+	transform:  scale(1.5) rotateZ(-15deg);
+}
+
+/* Back to top COK */
+
+/* #btop {
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+}
+
+#btop #btop-icon {
+	width: 50px;
+	border-radius: 100%;
+} */
+
+/*Media Queries*/
+
+/* Max Width*/
+@media screen and (max-width:1024px){
+		.bg-header {
+			height: 65vh;
+		}
+		.bg-feature {
+			height: 80vh;
+		}
+		
+}
+@media screen and (max-width:1024px){
+		.bg-header {
+			height: 65vh;
+		}
+		.bg-feature {
+			height: 80vh;
+		}
+		.f-icon {
+			width: 13vh;
+			border: 5px solid white;
+			border-radius: 100px;
+		}
+		.f-icon2 {
+			width: 14vh;
+		}
+}
+@media screen and (max-width:768px){
+		.bg-header {
+			height: 100vh;
+		}
+		.bg-feature {
+			background-position: center right;
+		}
+		.donasi {
+			padding: 0.5rem 2.5rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 2.5rem !important;	
+			margin-left: 120px;
+			margin-right: 15px;
+		}
+		.c-berita {
+			width: 12rem;
+		}
+		.gelembung {
+			width: 17rem;
+			margin-top: 50px;
+		}
+}
+@media screen and (max-width:570px){
+		.bg-header {
+			height: 110vh;
+		}
+		.navbar-brand {
+			font-size: 55px;
+		} 
+		.donasi {
+			padding: 0.5rem 0.5rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 0.5rem !important;
+			margin: 0;	
+		}
+		.selamat {
+			font-size: 30px;
+		}
+		.c-berita {
+			min-width: 0;
+			width: auto;
+		}
+
+}
+
+@media screen and (max-width:425px){
+		.bg-header {
+			height: 100vh;
+		}
+		.donasi {
+			padding: 0.5rem 1.8rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 2.5rem !important;
+			margin : 0;
+		}
+		.selamat {
+			font-size: 40px;
+		}
+		.copyright {
+			font-size: 14px;
+		}
+		.qod-size {
+			font-size: 25px;
+			margin-bottom: 50px;
+		}
+
+		/* Galery cok */
+
+		.galeri-section .gambar {
+			flex: 45.33%;
+			overflow: hidden;
+			cursor: pointer;
+		}
+
+}
+@media screen and (max-width:375px){
+		.bg-header {
+			height: 110vh;
+		}
+		.donasi {
+			padding: 0.5rem 0.5rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 0.5rem !important;	
+		}
+		.selamat {
+			font-size: 37px;
+		}
+
+}
+@media screen and (max-width:320px){
+		.bg-header {
+			height: 110vh;
+		}
+		.navbar-brand {
+			font-size: 55px;
+		} 
+		.donasi {
+			padding: 0.5rem 0.5rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 0.5rem !important;	
+		}
+		.selamat {
+			font-size: 30px;
+		}
+
+}
+
+
+
+/*Max Height*/
+
+@media screen and (max-height:425px){
+		.bg-header {
+			height: 140vh;
+		}
+		.navbar-brand {
+			font-size: 55px;
+		} 
+		.donasi {
+			padding: 0.5rem 1.8rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 2.5rem !important;
+			margin : 0;
+		}
+		.selamat {
+			font-size: 55px;
+		}
+
+}
+@media screen and (max-height:375px){
+		.bg-header {
+			height: 140vh;
+		}
+		.navbar-brand {
+			font-size: 55px;
+		} 
+		.donasi {
+			padding: 0.5rem 0.5rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 0.5rem !important;	
+		}
+		.selamat {
+			font-size: 50px;
+		}
+
+}
+@media screen and (max-height:320px){
+		.bg-header {
+			height: 165vh;
+		}
+		.navbar-brand {
+			font-size: 55px;
+		} 
+		.donasi {
+			padding: 0.5rem 0.5rem !important;
+		}
+		.critic {
+			display: inline-block;
+			padding: 0.5rem 0.5rem !important;	
+		}
+		.selamat {
+			font-size: 50px;
+		}
+
+}

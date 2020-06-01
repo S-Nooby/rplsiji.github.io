@@ -1,0 +1,215 @@
+/* CUSTOM FONTS (IMPORT)*/
+@font-face {
+font-family: "bebasn";
+src: url(../fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+font-family: "Alatsi";
+src: url(../fonts/Alatsi-Regular.ttf);
+}
+@font-face {
+font-family: "baloobhai";
+src: url(../fonts/BalooBhai-Regular.ttf);
+}
+@font-face {
+font-family: "cantarell1";
+src: url(../fonts/Cantarell-Boldttf);
+}
+@font-face {
+font-family: "cantarell2";
+src: url(../fonts/Cantarell-BoldItalic.ttf);
+}
+@font-face {
+font-family: "cantarell3";
+src: url(../fonts/Cantarell-Italic.ttf);
+}
+@font-face {
+font-family: "cantarell4";
+src: url(../fonts/Cantarell-Regular.ttf);
+}
+@font-face {
+font-family: "indief";
+src: url(../fonts/IndieFlower-Regular.ttf);
+}
+@font-face {
+font-family: "noticia";
+src: url(../fonts/NoticiaText-Bold.ttf);
+}
+@font-face {
+font-family: "noticia2";
+src: url(../fonts/NoticiaText-BoldItalic.ttf);
+}
+@font-face {
+font-family: "noticia3";
+src: url(../fonts/NoticiaText-Italic.ttf);
+}
+@font-face {
+font-family: "noticia4";
+src: url(../fonts/NoticiaText-Regular.ttf);
+}
+@font-face {
+font-family: "oxaniumB";
+src: url(../fonts/Oxanium-Bold.ttf);
+}
+@font-face {
+font-family: "righteous";
+src: url(../fonts/Righteous-Regular.ttf);
+}
+@font-face {
+font-family: "secularone";
+src: url(../fonts/SecularOne-Regular.ttf);
+}
+@font-face {
+font-family: "tekoB";
+src: url(../fonts/Teko-Bold.ttf);
+}
+@font-face {
+font-family: "TekoM";
+src: url(../fonts/Teko-Medium.ttf);
+}
+@font-face {
+font-family: "TekoL";
+src: url(../fonts/Teko-Light.ttf);
+}
+@font-face {
+font-family: "TekoR";
+src: url(../fonts/Teko-Regular.ttf);
+}
+@font-face {
+font-family: "viga";
+src: url(../fonts/Viga-Regular.ttf);
+}
+@font-face {
+font-family: "gugelB";
+src: url(../fonts/ProductSans-Bold.ttf);
+}
+/*CUTOMN FONTS (CLASS)*/
+.bebasn {
+font-family: "bebasn";
+}
+.alatsi {
+font-family: "Alatsi";
+}
+.baloobhai {
+font-family: "baloobhai";
+}
+.cantarell1 {
+font-family: "cantarell1";
+}
+.cantarell2 {
+font-family: "cantarell2";
+}
+.cantarell3 {
+font-family: "cantarell3";
+}
+.cantarell4 {
+font-family: "cantarell4";
+}
+.indief {
+font-family: "indief";
+}
+.noticia {
+font-family: "noticia";
+}
+.noticia2 {
+font-family: "noticia2";
+}
+.noticia3 {
+font-family: "noticia3";
+}
+.noticia4 {
+font-family: "noticia4";
+}
+.oxaniumB {
+font-family: "oxaniumB";
+}
+.righteous {
+font-family: "righteous";
+}
+.secularone {
+font-family: "secularone";
+}
+.tekoB {
+font-family: "TekoB";
+}
+.tekoM {
+font-family: "TekoM";
+}
+.tekoL {
+font-family: "TekoL";
+}
+.tekoR {
+font-family: "TekoR";
+}
+.viga {
+font-family: "viga";
+}
+.gugelB {
+	font-family: "gugelB"
+}
+
+/*FONTS CUSTOM SIZE*/
+
+.fo-10 {
+	font-size: 10px;
+}
+.fo-15 {
+	font-size: 15px;
+}
+.fo-20 {
+	font-size: 20px;
+}
+.fo-25 {
+	font-size: 25px;
+}
+.fo-30 {
+	font-size: 30px;
+}
+.fo-35 {
+	font-size: 35px;
+}
+.fo-40 {
+	font-size: 40px;
+}
+.fo-45 {
+	font-size: 45px;
+}
+.fo-50 {
+	font-size: 50px;
+}
+.fo-55 {
+	font-size: 55px;
+}
+.fo-60 {
+	font-size: 60px;
+}
+.fo-65 {
+	font-size: 65px;
+}
+.fo-70 {
+	font-size: 70px;
+}
+.fo-75 {
+	font-size: 75px;
+}
+.fo-80 {
+	font-size: 90px;
+}
+.fo-85 {
+	font-size: 85px;
+}
+.fo-90 {
+	font-size: 90px;
+}
+.fo-95 {
+	font-size: 95px;
+}
+.fo-100 {
+	font-size: 100px;
+}
+
+/*Text Shadow*/
+.t-shd-5-b {
+	text-shadow: 5px 5px 7px black;
+	
+}
